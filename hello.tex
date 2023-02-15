@@ -1,0 +1,73 @@
+\documentclass[12pt]{article}
+\usepackage{fontspec}
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    total={170mm,257mm},
+    left=25mm,
+    top=20mm
+}
+
+\setmainfont{Times New Roman}
+
+\title{Hello Latex with WSL and XeTex}
+\author{Narada Abeykoon}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\clearpage
+
+\input{intro.tex}
+
+\begin{figure}[h]
+    \begin{center}
+        \begin{tabular}{|c|c|c|}
+            \hline
+            col1 & col2   & col3               \\
+            \hline
+            1    & Narada & ruby on rails      \\
+            2    & Deshan & Spring boot        \\
+            4    & Rashmi & ruby on rails/.net \\
+            5    & Narada & ruby on rails      \\
+            6    & Deshan & Spring boot        \\
+            7    & Rashmi & ruby on rails/.net \\
+            \hline
+        \end{tabular}
+    \end{center}
+    \caption{A sample table}
+    \label{table1}
+\end{figure}
+
+Table \ref{table1} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam eos libero id corrupti aspernatur debitis eveniet consectetur officiis excepturi assumenda hic iusto qui, cumque veniam blanditiis repellat similique amet ratione.
+
+Table \ref{table1} Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam eos libero id corrupti aspernatur debitis eveniet consectetur officiis excepturi assumenda hic iusto qui, cumque veniam blanditiis repellat similique amet ratione.
+
+\clearpage
+\section{Introduction / executive summery}
+\section{Vision}
+\section{Mission}
+\section{Values}
+\clearpage
+
+\section{PESTEL Analysis (Political, Economic, Social, Technological, Environmental and Legal)}
+\begin{enumerate}
+    \item Political
+    \item Economic
+    \item Social
+    \item Technological
+    \item Environmental
+    \item Legal
+\end{enumerate}
+
+
+\section{SWOT Analysis}
+\section{Strategic Objectives}
+\section{Action plan alignment with the strategic objectives}
+\section{HR plan}
+HR plan describes how the organization arranges the HUman Resources of the company.
+\section{Conclusion}
+This is the conclusion section that describes the final decision abount the reasearch work.
+\section{References}
+
+\end{document}
